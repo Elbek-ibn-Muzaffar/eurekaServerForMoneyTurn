@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: eureka-server-for-money-turn.herokuapp.com
 
   client:
     fetch-registry: false
