@@ -2,6 +2,9 @@ server:
   port: 8088
 
 eureka:
+  eureka:
+    server:
+      enableSelfPreservation: false
   instance:
     hostname: eureka-server-for-money-turn.herokuapp.com
 
